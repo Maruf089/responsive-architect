@@ -1,6 +1,7 @@
 .head-section {
     background: rgba(255, 144, 14, 0.1);
     height: 760px;
+    margin-bottom: 40px;
 }
 
 .navigation {
@@ -58,4 +59,50 @@
 .title-banner img
 {
     width: 100%;
+}
+
+.features-section
+{
+    margin: 20px 140px;
+    display: flex;
+    gap: 60px;
+}
+.features-img
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+.features-img img
+{
+    width: 100%;
+}
+
+.feature-title
+{
+    color: #727272;
+    font-weight: 700;
+    font-size: 30px;
+    width: 250px;
+    margin-top: 50px;
+}
+.feature-description
+{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-size: 10px;
+    color: #727272;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.btn-feature
+{
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    height: 53px;
+    padding: 12px 20px;
+    font-weight: 600;
+    font-size: 15px;
 }
