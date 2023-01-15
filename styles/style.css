@@ -154,10 +154,26 @@
 }
 
 
-
+.new-features-architect
+{
+    position: relative;
+    width: 700px;
+}
+.image-box
+{
+    z-index: 2;
+    position: absolute;
+}
+.button-box
+{
+    position: relative;
+    z-index: 5;
+    padding-top: 555px;
+}
 .new-features-architect img {
-    width: 100%;
-    height: 95%;
+    width: 90%;
+    padding-left: 30px;
+    height: 607px;
 }
 
 .some-facts {
@@ -182,7 +198,6 @@
     border-radius: 8px;
     padding: 20px 40px;
     text-align: center;
-
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 600;
