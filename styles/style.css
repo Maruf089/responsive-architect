@@ -1,0 +1,61 @@
+.head-section {
+    background: rgba(255, 144, 14, 0.1);
+    height: 760px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 140px;
+}
+
+.side-nav {
+    display: flex;
+    gap: 20px;
+    font-size: 8px;
+    margin-top: 18px;
+}
+
+.title-head {
+    text-align: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin: 0 0;
+}
+
+.title-description {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-size: 10px;
+    color: #727272;
+    width: 560px;
+    height: 52px;
+    margin-left: 258px;
+    text-align: center;
+}
+
+.title-button
+{
+    text-align: center;
+}
+.btn-primary {
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    height: 53px;
+    padding: 18px 35px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.title-banner
+{
+    margin: 20px 140px;
+}
+.title-banner img
+{
+    width: 100%;
+}
