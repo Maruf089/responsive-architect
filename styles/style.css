@@ -264,12 +264,10 @@
 
 .footer-section
 {
-    margin: 20px 140px;
-    width: 800px;
-    height: 45px;
-    background: #FFF4E7;
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 1% 15%;
+    margin: 2% 15%;
     border-radius: 8px;
-    text-align: center;
 }
 
 .footer-description {
